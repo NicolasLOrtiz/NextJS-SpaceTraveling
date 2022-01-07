@@ -1,1 +1,51 @@
 // TODO
+.postList {
+  margin-top: 2rem;
+
+  > a {
+    display: block;
+  }
+
+  a + a {
+    margin-top: 3rem;
+  }
+
+  button {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--highlight);
+    margin-top: 4rem;
+  }
+}
+
+.postSingle {
+  strong {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--heading);
+  }
+
+  p {
+    margin-top: 0.5rem;
+    font-size: 1.125rem;
+  }
+
+  div {
+    margin-top: 1.5rem;
+    display: flex;
+
+    & span {
+      font-size: 0.875rem;
+
+      & svg {
+        margin-right: 0.5rem;
+      }
+
+      & + span {
+        margin-left: 1.625rem;
+      }
+    }
+  }
+}
